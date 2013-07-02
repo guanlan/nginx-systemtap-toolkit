@@ -1030,6 +1030,8 @@ Dumps connections pools status of [ngx_lua](http://wiki.nginx.org/HttpLuaModule)
 
 Specify the `--lua51` option when you're using the standard Lua 5.1 interpreter in your Nginx build, or `--luajit20` if LuaJIT 2.0 is used instead.
 
+The `--distr` option can be specified to print out a base-2 logarithmic histogram for all the reused times of in-pool connections.
+
 Here's a sample command:
 
     # assuming the nginx worker pid is 19773
