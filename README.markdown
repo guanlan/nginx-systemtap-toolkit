@@ -1041,31 +1041,31 @@ Here's a sample command:
     pool "127.0.0.1:11213"
         out-of-pool connections: 185
         in-pool connections: 183
-            reused times (max/avg/min): 9322 1042 3748
+            reused times (max/avg/min): 9322 3748 1042
         pool capacity: 1024
 
     pool "127.0.0.1:11212"
         out-of-pool connections: 184
         in-pool connections: 182
-            reused times (max/avg/min): 10283 414 3408
+            reused times (max/avg/min): 10283 3408 414
         pool capacity: 1024
 
     pool "127.0.0.1:11211"
         out-of-pool connections: 185
         in-pool connections: 183
-            reused times (max/avg/min): 7109 651 3867
+            reused times (max/avg/min): 7109 3867 651
         pool capacity: 1024
 
     pool "127.0.0.1:11214"
         out-of-pool connections: 185
         in-pool connections: 183
-            reused times (max/avg/min): 7051 810 3807
+            reused times (max/avg/min): 7051 3807 810
         pool capacity: 1024
 
     pool "127.0.0.1:11215"
         out-of-pool connections: 185
         in-pool connections: 183
-            reused times (max/avg/min): 7275 1127 3839
+            reused times (max/avg/min): 7275 3839 1127
         pool capacity: 1024
 
     For total 5 connection pool(s) found.
